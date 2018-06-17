@@ -1,4 +1,4 @@
-package fmaxx.github.com.android.mvp.help.interfaces
+package com.snzflash.mvp.interfaces
 
 import android.app.Application
 

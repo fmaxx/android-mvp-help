@@ -1,6 +1,6 @@
-package fmaxx.github.com.android.mvp.help.presenters
+package com.snzflash.mvp.presenters
 
-import fmaxx.github.com.android.mvp.help.interfaces.IView
+import com.snzflash.mvp.interfaces.IView
 import io.reactivex.disposables.CompositeDisposable
 
 /**
@@ -10,8 +10,8 @@ abstract class RxPresenterBase<V: IView>(view: V): PresenterBase<V>(view) {
 
     protected val subscription: CompositeDisposable = CompositeDisposable()
 
-    override fun onViewPause(view: V) {
-        super.onViewPause(view)
+    override fun onViewPaused(view: V) {
         subscription.clear()
+        super.onViewPaused(view)
     }
 }

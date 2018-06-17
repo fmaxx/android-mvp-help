@@ -1,4 +1,4 @@
-package fmaxx.github.com.android.mvp.help;
+package com.snzflash.mvp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

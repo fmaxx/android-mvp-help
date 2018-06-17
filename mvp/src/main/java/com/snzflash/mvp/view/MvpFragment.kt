@@ -1,7 +1,7 @@
-package fmaxx.github.com.android.mvp.help.view
+package com.snzflash.mvp.view
 
 import android.app.Fragment
-import fmaxx.github.com.android.mvp.help.interfaces.IView
+import com.snzflash.mvp.interfaces.IView
 import org.jetbrains.anko.toast
 
 /**
